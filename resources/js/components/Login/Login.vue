@@ -14,11 +14,7 @@
             required
           >
         <template #label>
-<<<<<<< HEAD
             <span class="red--text"><strong>* </strong></span>Email
-=======
-            <span class="red--text"><strong>* </strong></span>EMAIL
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
         </template>
         </v-text-field>
         </v-col>
@@ -33,11 +29,7 @@
             required
           >
             <template #label>
-<<<<<<< HEAD
                 <span class="red--text"><strong>* </strong></span>Password
-=======
-                <span class="red--text"><strong>* </strong></span>PASSWORD
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
             </template>
           </v-text-field>
         </v-col>

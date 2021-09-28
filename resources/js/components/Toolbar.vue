@@ -14,18 +14,10 @@
                 :key="item.title"
                 :to="item.to"
                 v-if="item.show"
-<<<<<<< HEAD
-                style="text-decoration: none; color: inherit;"
-=======
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
             >
                 <v-btn text>{{ item.title }}</v-btn>
             </router-link>
         </div>
-<<<<<<< HEAD
-        <v-avatar :color="`#${Math.floor(Math.random() * 0xFFFFFF)}`" size="44" v-if="getUserName()">{{ userName }}</v-avatar>
-    </v-app-bar>
-=======
     </v-app-bar>
 
     <!-- <v-app id="inspire">
@@ -76,7 +68,6 @@
             </v-list>
         </v-navigation-drawer>
     </v-app> -->
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
 </template>
 
 <script>
@@ -94,32 +85,13 @@ export default {
                 { title: "Login", to: "/login", show: !User.hasToken() },
                 { title: "Logout", to: "/logout", show: User.hasToken() }
             ],
-<<<<<<< HEAD
-            loggedIn: User.loggedIn(),
-            userName: this.getUserName()
-=======
             loggedIn: User.loggedIn()
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
         };
     },
     created() {
         EventBus.$on("logout", () => {
             User.loggedOut();
         });
-<<<<<<< HEAD
-    },
-    methods: {
-        getUserName() {
-            if(User.loggedIn()){
-                return User.getName()
-                .split(" ")
-                .map(s => s[0].toUpperCase())
-                .join("")
-            }
-            return false
-        }
-=======
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
     }
 };
 </script>

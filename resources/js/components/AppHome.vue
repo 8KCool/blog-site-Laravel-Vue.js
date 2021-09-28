@@ -2,18 +2,16 @@
     <div>
     <toolbar></toolbar>
     <router-view></router-view>
-    <!-- <app-footer></app-footer> -->
-    <Footers></Footers>
+    <app-footer></app-footer>
     </div>
 </template>
 
 <script>
-import Toolbar from './Toolbar';
+import toolbar from './Toolbar';
 import AppFooter from './AppFooter';
 import Login from './Login/Login';
-import Footers from './layouts/home/Footers';
 export default {
-    components: { Toolbar, AppFooter, Login, Footers }
+    components: { toolbar, AppFooter, Login }
 }
 </script>
 

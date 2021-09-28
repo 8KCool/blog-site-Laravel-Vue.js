@@ -1,6 +1,6 @@
 <template>
     <v-footer class="pa-3" bottom padless>
-        CHAINLINK
+        Chainlink
         <v-spacer></v-spacer>
         <div>
             &copy;{{new Date().getFullYear()}}

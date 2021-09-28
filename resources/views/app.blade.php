@@ -6,11 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}"/>
         <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
 
-<<<<<<< HEAD
-        <title>Chainlink</title>
-=======
-        <title>Chain Link - where blockchain ethusiasts learn, share & build careers</title>
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
+        <title>Laravel Blog</title>
     </head>
     <body>
         <div id="app">

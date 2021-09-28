@@ -1,9 +1,5 @@
 <template>
-<<<<<<< HEAD
-    <div class="text-center mr-4">
-=======
     <div class="text-center">
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
         <v-menu offset-y>
             <template v-slot:activator="{ on }">
                 <v-btn v-on="on" icon small>

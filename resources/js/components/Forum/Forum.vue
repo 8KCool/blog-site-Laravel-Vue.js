@@ -13,11 +13,7 @@
                 <div class="text-center">
                     <v-pagination
                         v-model="meta.current_page"
-<<<<<<< HEAD
-                        :length="links"
-=======
                         :length="meta.total"
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
                         :total-visible="meta.total"
                         v-on:input="paginate"
                     ></v-pagination>
@@ -35,12 +31,7 @@ export default {
     data() {
         return {
             questions: {},
-<<<<<<< HEAD
-            meta: {},
-            links: 0
-=======
             meta: {}
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
         };
     },
     created() {
@@ -53,10 +44,6 @@ export default {
             .then(response => {
                 this.questions = response.data.data;
                 this.meta = response.data.meta;
-<<<<<<< HEAD
-                this.links = Object.keys(response.data.links).length-1
-=======
->>>>>>> adf261b28bc0cbf76515a85e9a02d6cd3b32afa2
             })
             .catch(error => console.error(error));
         }
