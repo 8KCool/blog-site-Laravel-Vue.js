@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}"/>
         <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
 
-        <title>Laravel Blog</title>
+        <title>Chain Link - where blockchain ethusiasts learn, share & build careers</title>
     </head>
     <body>
         <div id="app">

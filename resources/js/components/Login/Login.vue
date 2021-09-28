@@ -14,7 +14,7 @@
             required
           >
         <template #label>
-            <span class="red--text"><strong>* </strong></span>Email
+            <span class="red--text"><strong>* </strong></span>EMAIL
         </template>
         </v-text-field>
         </v-col>
@@ -29,7 +29,7 @@
             required
           >
             <template #label>
-                <span class="red--text"><strong>* </strong></span>Password
+                <span class="red--text"><strong>* </strong></span>PASSWORD
             </template>
           </v-text-field>
         </v-col>
